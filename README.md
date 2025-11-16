@@ -91,7 +91,6 @@ This analysis answers critical business questions:
 5. **Dashboard Design** – Created overview, drill-through, customer, and regional dashboards.  
 6. **Insights & Recommendations** – Interpreted trends for revenue, retention, and product performance.
 
-
 ---
 
 ## Dashboards
@@ -103,100 +102,75 @@ This analysis answers critical business questions:
 <img width="848" height="499" alt="Details Dashboard" src="https://github.com/user-attachments/assets/233beecc-bd9c-41b7-bccd-99d6b78ba52b" />
 
 ### Filtered Total Customers Dashboard – deeper customer segmentation.  
-
 <img width="849" height="500" alt="Total Customers Dashboard" src="https://github.com/user-attachments/assets/d5087236-de83-466e-aed8-77fd338e321e" />
 
-
-### Filtered California Province Dashboard – geographic insights for California.
-
+### Filtered California Province Dashboard – geographic insights for California.  
 <img width="848" height="499" alt="Califonia State" src="https://github.com/user-attachments/assets/032df2d0-8f99-4192-9c85-df04a2a345f9" />
-
 
 ---
 
 ## Results & Insights
 
-## Key Metrics
+### 1. How is overall transaction performance trending?  
 - **Net Sales:** $4.18M  
 - **Total Quantity Sold:** 7,534  
 - **Average Order Value (AOV):** $562.60  
-- **Insight:** Strong AOV combined with periodic order surges indicates highly effective promotional windows that can be replicated and optimized further.
+- Sales peaks occur around **Day 10, Day 15, and Day 24**, indicating predictable high-activity cycles.  
+- Revenue spikes result from **high AOV plus elevated order counts**, not just traffic increases.  
+- Recovery periods after dips suggest temporary campaign impacts; retention mechanisms underutilized.  
+- **Trend Over Time:** synchronized peaks on Day 12, 18, 24; baseline days show potential for micro-campaign uplift.  
+- **Insight:** Replicate successful promotional drivers; align acquisition with retention triggers (post-purchase offers, time-limited incentives).
 
 ---
 
-## Transaction Performance
-- Sales peaks occur consistently around **Day 10, Day 15, and Day 24**, indicating clear high-activity cycles.
-- Revenue surges are driven by a combination of **higher AOV** and **elevated order volume**, not just increased site traffic.
-- Baseline days show significantly lower activity, signaling potential to elevate everyday performance with micro-campaigns.
-- **Insight:** Mirror successful promotional drivers from peak days. Test bundling, upsells, and micro-offers on baseline days to lift daily revenue.
-
----
-
-## Trend Over Time
-- Sales and customer activity trend together, with synchronized peaks on **Day 12, Day 18, and Day 24**.
-- Each peak is followed by a noticeable dip, indicating campaign impacts are strong but short-lived.
-- Recovery suggests that while activation works, **retention mechanisms are currently underutilized**.
-- **Insight:** Align acquisition bursts with immediate retention triggers—post-purchase offers, rapid re-engagement, and time-limited incentives.
-
----
-
-## Regional Performance
-- Highest revenue comes from **California, Texas, Washington, New York, and Illinois**.
-- Strong performing cities include **Los Angeles, San Diego, San Jose, Dallas, Houston, and San Antonio**.
-- Smaller markets like **Oklahoma and Florida** deliver fewer orders but exhibit **higher AOV**, forming value-heavy micro-markets.
-- **Insight:**  
-  - Scale volume and acquisition efforts in CA & TX.  
-  - Apply VIP and premium pricing/upsell strategies in high-AOV micro-markets.
-
----
-
-## Product Performance
-- Dominant revenue categories: **Running Shoes, Tennis Shoes, Climbing Shoes, and Boots**.
-- Select regions show high turnover for **Flip Flops**, suggesting seasonal or demographic-driven spikes.
-- A classic **Pareto distribution** exists — top product types generate the majority of revenue.
-- Mid-tail products sell steadily but contribute less to profit.
-- **Insight:** Maximize spend and visibility on top categories. Use bundles and cross-category promotions to elevate mid-tail products without hurting bestsellers.
-
----
-
-## Payment Gateway Behavior
-- **Shopify Payments** and **PayPal** dominate both transaction volume and total revenue.
-- **Amazon Pay** and **Gift Cards** show steady but smaller contribution.
-- Gateway effectiveness varies slightly by metro — certain regions show higher AOV or better checkout success with specific gateways.
-- **Insight:** Strengthen UX, reduce friction, and enhance monitoring for Shopify Payments & PayPal. Investigate and fix region-specific gateway decline points.
-
----
-
-## Customer Behavior & Retention
+### 2. Which customer segments contribute most revenue?  
 - **Total Customers:** 4,431  
 - **Single-order customers:** 2,392 (54%)  
 - **Repeat customers:** 2,039 (46%)  
+- Repeat buyers exhibit **higher AOV** and contribute disproportionately to total revenue.  
+- Basket-size variance reveals opportunities to segment **high-ticket vs low/mid-ticket customers**.  
+- **Insight:** Prioritize converting single-order buyers via **post-purchase flows, cross-sells, and win-back campaigns**; build VIP treatment for high-ticket segments.
+
+---
+
+### 3. What are the dominant product types and payment methods?  
+- **Top Product Categories:** Running Shoes, Tennis Shoes, Climbing Shoes, Boots; Flip Flops in select regions.  
+- Clear **Pareto distribution**: top product types drive majority of revenue and units sold.  
+- Mid-tail SKUs sell steadily but contribute less profit.  
+- **Payment Gateways:** Shopify Payments & PayPal dominate volume and revenue; Amazon Pay & Gift Cards smaller but steady.  
+- Regional variations in gateway success; some show higher AOV or success in specific metros.  
+- **Insight:** Focus merchandising and ad spend on top categories; use bundles to boost mid-tail performance. Optimize checkout UX and monitor top gateways regionally.
+
+---
+
+### 4. How can insights improve retention and customer lifetime value?  
 - **Lifetime Value (LTV):** $943.60  
 - **Purchase Frequency:** 1.68  
-- Repeat buyers show **higher AOV** and contribute disproportionately to total revenue.
-- **Insight:** Deploy targeted retention strategies to convert single-order customers—post-purchase sequences, time-limited cross-sells, and win-back flows.
+- Repeat customers drive most revenue; single-order buyers represent opportunity for growth.  
+- Observed high-ticket, multi-SKU orders indicate natural cross-sell potential.  
+- **Insight:** Implement **3-email post-purchase automation** to accelerate time-to-second-purchase, increase LTV, and convert one-time buyers. Build cross-sell bundles and targeted offers for both repeat and high-value segments.
 
 ---
 
-## Transaction-Level Observations
-- Top transactions include frequent high-ticket orders across multiple gateways and regions.
-- Wide variance in basket sizes reveals strong segmentation opportunities by purchase value.
-- Many large orders contain multiple items from top categories, highlighting **strong natural cross-sell behavior**.
-- **Insight:** Build a “high-ticket” segment for enhanced VIP experience and dedicated upsell pathways; design separate flows for low- and mid-ticket customers.
+### 5. Regional and transactional insights  
+- Highest revenue: **California, Texas, Washington, New York, Illinois**  
+- Hotspot cities: **Los Angeles, San Diego, San Jose, Dallas, Houston, San Antonio**  
+- Smaller markets like **Oklahoma and Florida** have fewer orders but **higher AOV**.  
+- **Transactions:** High-ticket orders across gateways/regions; multi-SKU baskets highlight upsell opportunities.  
+- **Insight:** Scale volume in CA/TX, deploy premium offers in value-heavy micro-markets, segment flows by basket value, protect top SKUs during peak periods.
 
 ---
 
-## Action Plan  
-- Identify the specific promotional factors behind peak days (**Day 10, Day 15, Day 24**) and replicate through controlled experiments.
-- Shift ad spend toward top-performing regions and cities (especially **CA & TX**, plus Los Angeles, San Diego, Dallas, Houston).
-- Develop segmentation clusters:
-  - **Frequency-High Regions** for scaling volume.
-  - **Value-High Micro-Markets** (e.g., OK, FL) for premium offers.
-- Promote the top **20% SKUs** aggressively and build cross-sell bundles to boost attach rate.
-- Strengthen gateway monitoring for Shopify Payments & PayPal and fix region-dependent checkout failures.
-- Launch a **3-email post-purchase automation** to convert single-order buyers and accelerate time-to-second-purchase.
-- Reallocate a portion of ad spend to top 3 metro areas for faster acquisition gains.
-- Protect top 10 highest-value SKUs from out-of-stock risk during predicted peak periods.
+### 6. Action Plan / Quick Wins  
+- Replicate promotional drivers behind **Day 10, 15, 24** via controlled tests.  
+- Reallocate ad spend to **top regions/cities** and top 3 metro areas for immediate lift.  
+- Develop segmentation clusters:  
+  - **Frequency-High Regions** for volume campaigns.  
+  - **Value-High Micro-Markets** (e.g., OK, FL) for premium offers.  
+- Promote top **20% SKUs** and implement cross-sell bundles to boost attach rate.  
+- Strengthen gateway monitoring for Shopify Payments & PayPal and fix region-specific checkout issues.  
+- Launch targeted **post-purchase automation** for one-time buyers to accelerate LTV.  
+- Protect top 10 highest-value SKUs from stockouts during predicted peak periods.
 
 ---
 
@@ -205,7 +179,5 @@ This analysis answers critical business questions:
 - **Power BI** – Dashboard development  
 - **Excel & Power Query** – Data transformation  
 - **DAX** – KPI calculations  
-
----
 
 
